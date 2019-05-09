@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Anasayfa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="movie">
+    <div class="movie-group" (click)="goDetail()">
+        <img class="moviePhoto" src="/assets/imgs/heroes.jpg" width="150px" height="215px"/>
+
+        <div class="movie-info">
+          <div class="movie-info-header">
+            <div class="title-group">
+              <span><b>Heroes</b> (Kahramanlar)</span>
+              <span class="imdb">
+                <img src="/assets/imgs/star.png" height="24" width="24" style="margin-top: 7px;">
+                <p class="white">7.6/10</p>
+              </span>
+            </div>
+            <div class="bookmark">
+              <img src="/assets/imgs/yellow-plus.png" onclick="addlist()">
+            </div>
+          </div>
+          
+          <div class="movie-info-content">
+            <span class="other">
+               <p>1s 40dk | 2018 | Aksiyon, Macera</p>
+            </span>
+            <p>Son zamanlarda sıradan görünen bir grup birey ancak 'özel' kelimesiyle tanımlanabilecek olan bazı yeteneklerini ortaya çıkardılar. Şimdilik bunun farkında olmasalar da...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-group">
+          <img class="moviePhoto" src="/assets/imgs/heroes.jpg" width="150px" height="215px" onclick="goDetail()"/>
+  
+          <div class="movie-info">
+            <div class="movie-info-header">
+              <div class="title-group">
+                <span><b>Heroes</b> (Kahramanlar)</span>
+                <span class="imdb">
+                  <img src="/assets/imgs/star.png" height="24" width="24" style="margin-top: 7px;">
+                  <p class="white">7.6/10</p>
+                </span>
+              </div>
+              <div class="bookmark">
+                <img src="/assets/imgs/yellow-plus.png" onclick="addlist()">
+              </div>
+            </div>
+            
+            <div class="movie-info-content">
+              <span class="other">
+                 <p>1s 40dk | 2018 | Aksiyon, Macera</p>
+              </span>
+              <p>Son zamanlarda sıradan görünen bir grup birey ancak 'özel' kelimesiyle tanımlanabilecek olan bazı yeteneklerini ortaya çıkardılar. Şimdilik bunun farkında olmasalar da...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie-group">
+            <img class="moviePhoto" src="/assets/imgs/heroes.jpg" width="150px" height="215px" onclick="goDetail()"/>
+    
+            <div class="movie-info">
+              <div class="movie-info-header">
+                <div class="title-group">
+                  <span><b>Heroes</b> (Kahramanlar)</span>
+                  <span class="imdb">
+                    <img src="/assets/imgs/star.png" height="24" width="24" style="margin-top: 7px;">
+                    <p class="white">7.6/10</p>
+                  </span>
+                </div>
+                <div class="bookmark">
+                  <img src="/assets/imgs/yellow-plus.png" onclick="addlist()">
+                </div>
+              </div>
+              
+              <div class="movie-info-content">
+                <span class="other">
+                   <p>1s 40dk | 2018 | Aksiyon, Macera</p>
+                </span>
+                <p>Son zamanlarda sıradan görünen bir grup birey ancak 'özel' kelimesiyle tanımlanabilecek olan bazı yeteneklerini ortaya çıkardılar. Şimdilik bunun farkında olmasalar da...</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-group">
+              <img class="moviePhoto" src="/assets/imgs/heroes.jpg" width="150px" height="215px" onclick="goDetail()"/>
+      
+              <div class="movie-info">
+                <div class="movie-info-header">
+                  <div class="title-group">
+                    <span><b>Heroes</b> (Kahramanlar)</span>
+                    <span class="imdb">
+                      <img src="/assets/imgs/star.png" height="24" width="24" style="margin-top: 7px;">
+                      <p class="white">7.6/10</p>
+                    </span>
+                  </div>
+                  <div class="bookmark">
+                    <img src="/assets/imgs/yellow-plus.png" onclick="addlist()">
+                  </div>
+                </div>
+                
+                <div class="movie-info-content">
+                  <span class="other">
+                     <p>1s 40dk | 2018 | Aksiyon, Macera</p>
+                  </span>
+                  <p>Son zamanlarda sıradan görünen bir grup birey ancak 'özel' kelimesiyle tanımlanabilecek olan bazı yeteneklerini ortaya çıkardılar. Şimdilik bunun farkında olmasalar da...</p>
+                </div>
+              </div>
+            </div>
+  </div>
+</ion-content>
